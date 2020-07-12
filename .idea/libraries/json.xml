@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="json">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/json.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/NetworkTool.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/reflections-0.9.10.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
