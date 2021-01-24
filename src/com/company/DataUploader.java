@@ -1,7 +1,5 @@
 package com.company;
 
-import pl.sebox.decathlon.tools.Network;
-
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -10,10 +8,10 @@ import java.util.HashMap;
 import java.util.stream.Stream;
 
 public class DataUploader {
-    public static void doIt(String jakisURL) {
+    public static void doIt(String someURL) {
         HashMap<String, String> parms = new HashMap<>();
         parms.put("content", readLineByLineJava8("C:\\pathtofile\\ulopadfile"));
-        Network.post(jakisURL, parms);
+        Network.post(someURL, parms);
     }
 
     private static String readLineByLineJava8(String filePath) {
